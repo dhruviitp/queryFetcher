@@ -25,9 +25,9 @@ function Buttons({
       });
       setCSVData(temp);
       if (temp.length > 0) {
-        toast.success("Query run");
+        toast.success("Your query has run successfully");
       } else {
-        toast.error("This didn't work.");
+        toast.error("There is some issue with loading your data.");
       }
     }
   };

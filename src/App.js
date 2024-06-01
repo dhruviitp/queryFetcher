@@ -27,7 +27,6 @@ function App() {
     }
   }, [value]);
 
-  const updateValue = (queryNumber) => {};
   return (
     <div>
       <div>
