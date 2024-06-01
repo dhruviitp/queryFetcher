@@ -3,7 +3,7 @@ About the application wrt to Evaluation criteria :
 - Functionalities & Basic needs :
 
 User can use 2 predefined queries in the input and see the results of the queries which are mapped to local created data store.
-User can also add other queries and also add data mapping it to those query which is very simple in the code.
+User can also add other queries and also add data mapping it to those query which is very simple in the code.User can see cleary queries which he can directly use.
 
 - Advance Functionalities:
 
@@ -11,7 +11,7 @@ Provided download data option to the user as these features are generally requir
 
 - More to do :
 
-Can be easily extended to give user option to add favourite queries , which user can just select and fetch results.
+Can be easily extended to give user option to add favourite queries , which user can just select and fetch results.Have provided functionality where user can add more queries and those quereis will be added added to our active queries list.This functionality still need to add to completed which needs a input provided to user and the query can be added to the active query list.
 
 - How well did you plan your layout? Does this layout enhance the overall experience for the user?
 

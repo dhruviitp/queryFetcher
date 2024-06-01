@@ -6,7 +6,7 @@ import QueryEditor from "./components/QueryEditor";
 import DataTable from "./components/Table";
 
 function App() {
-  const [value, setValue] = useState("select * from customers;");
+  const [value, setValue] = useState("select * from customers");
   const [rows, setRows] = useState([]);
   const [headers, setHeaders] = useState([]);
   const [query, setQuery] = useState("");
