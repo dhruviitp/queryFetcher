@@ -103,7 +103,7 @@ function App() {
         position="center"
         gutter={8}
         toastOptions={{
-          duration: 3000,
+          duration: 1000,
         }}
       />
     </div>
