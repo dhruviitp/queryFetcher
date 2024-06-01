@@ -1,4 +1,5 @@
 Link to the application : https://query-fetcher.vercel.app/
+GitHubLink: https://github.com/dhruviitp/queryFetcher
 
 About the application wrt to Evaluation criteria :
 
