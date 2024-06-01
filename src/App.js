@@ -46,7 +46,7 @@ function App() {
                       onClick={() => {
                         setValue(queries[0]);
                       }}
-                      className="text-sm flex text-white bg-blue-400 border-0 py-2 h-8 px-2 focus:outline-none hover:bg-indigo-600 rounded text-lg justify-center items-center"
+                      className="text-sm flex text-white bg-blue-500 border-0 py-2 h-8 px-2 focus:outline-none hover:bg-indigo-600 rounded text-lg justify-center items-center"
                     >
                       {queries[0]}
                     </button>
@@ -57,7 +57,7 @@ function App() {
                       onClick={() => {
                         setValue(queries[1]);
                       }}
-                      className="text-sm flex text-white bg-blue-400 border-0 py-2 h-8 px-4 focus:outline-none hover:bg-indigo-600 rounded text-lg justify-center items-center mx-4"
+                      className="text-sm flex text-white bg-blue-500 border-0 py-2 h-8 px-4 focus:outline-none hover:bg-indigo-600 rounded text-lg justify-center items-center mx-4"
                     >
                       {queries[1]}
                     </button>
