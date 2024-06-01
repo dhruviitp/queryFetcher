@@ -1,5 +1,6 @@
 Link to the application : https://query-fetcher.vercel.app/
 GitHubLink: https://github.com/dhruviitp/queryFetcher
+Video around the app :
 
 About the application wrt to Evaluation criteria :
 
@@ -40,3 +41,8 @@ Cumulative Layout Shift
 0
 Speed Index
 0.8 s
+
+Optimizations:
+
+1. Clear component driven code structure ,with each component handling its own function.
+2. Not many dependencies to keep bundle size small.
