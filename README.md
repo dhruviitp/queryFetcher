@@ -1,8 +1,11 @@
+Link to the application : https://query-fetcher.vercel.app/
+
 About the application wrt to Evaluation criteria :
 
 - Functionalities & Basic needs :
 
 User can use 2 predefined queries in the input and see the results of the queries which are mapped to local created data store.
+User can see the queries he uses and get just click on the query he wants to use .
 User can also add other queries and also add data mapping it to those query which is very simple in the code.User can see cleary queries which he can directly use.
 
 - Advance Functionalities:
@@ -22,3 +25,17 @@ Can be easily extended to give user option to add favourite queries , which user
   Clear code structure in component driver development , with different components solving different functions and use cases.
 
 - Load time & Performance:
+
+Page Load time of this website in desktop is in the range of 0.4 s to 0.6s.
+
+Screenshots have been added to show perforamce , initial load time :
+First Contentful Paint
+0.2 s
+Largest Contentful Paint
+0.5 s
+Total Blocking Time
+10 ms
+Cumulative Layout Shift
+0
+Speed Index
+0.8 s
