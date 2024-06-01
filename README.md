@@ -1,6 +1,8 @@
 Link to the application : https://query-fetcher.vercel.app/
 GitHubLink: https://github.com/dhruviitp/queryFetcher
-Video around the app :
+Video around the app : 
+
+https://github.com/dhruviitp/queryFetcher/assets/6825788/2880a8a8-acef-4924-ac7b-49586a3a29f9
 
 About the application wrt to Evaluation criteria :
 
@@ -17,6 +19,8 @@ Provided download data option to the user as these features are generally requir
 - More to do :
 
 Can be easily extended to give user option to add favourite queries , which user can just select and fetch results.Have provided functionality where user can add more queries and those quereis will be added added to our active queries list.This functionality still need to add to completed which needs a input provided to user and the query can be added to the active query list.
+
+Also we can add option to delete existing queries , so user can maintain which query he wants in his favourite list and which he wants to remove.
 
 - How well did you plan your layout? Does this layout enhance the overall experience for the user?
 
