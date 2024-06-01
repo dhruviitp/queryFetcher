@@ -35,7 +35,7 @@ function Buttons({
   const reset = () => {
     // function to reset the editor
     setQuery("");
-    setValue("select * from customers;");
+    setValue("select * from customers");
     setDefaults(1);
     setHeaders([]);
     setRows([]);
