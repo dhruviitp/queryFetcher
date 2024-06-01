@@ -12,21 +12,22 @@ function App() {
   const [query, setQuery] = useState("");
   const [defaults, setDefaults] = useState(1);
   const [csvData, setCSVData] = useState([]);
-
+  const queries = ["select * from customers", "select * from products"];
   if (value === "") {
     setValue("Please enter a new query !! ");
   }
 
   useEffect(() => {
-    if (value.toLowerCase() === "select * from customers;") {
+    if (value.toLowerCase() === queries[0]) {
       setDefaults(1);
-    } else if (value.toLowerCase() === "select * from products;") {
+    } else if (value.toLowerCase() === queries[1]) {
       setDefaults(2);
     } else {
       setDefaults(0);
     }
   }, [value]);
 
+  const updateValue = (queryNumber) => {};
   return (
     <div>
       <div>
@@ -35,6 +36,45 @@ function App() {
             <ExistingQuery setValue={setValue} setDefaults={setDefaults} />
           </div>
           <div>
+            <div className="mt-4 px-5 font-bold">
+              <div className="text-sm">
+                Exisitng queries:
+                <ul className="flex ">
+                  <li>
+                    {" "}
+                    <button
+                      onClick={() => {
+                        setValue(queries[0]);
+                      }}
+                      className="text-sm flex text-white bg-blue-400 border-0 py-2 h-8 px-2 focus:outline-none hover:bg-indigo-600 rounded text-lg justify-center items-center"
+                    >
+                      {queries[0]}
+                    </button>
+                  </li>
+                  <li>
+                    {" "}
+                    <button
+                      onClick={() => {
+                        setValue(queries[1]);
+                      }}
+                      className="text-sm flex text-white bg-blue-400 border-0 py-2 h-8 px-4 focus:outline-none hover:bg-indigo-600 rounded text-lg justify-center items-center mx-4"
+                    >
+                      {queries[1]}
+                    </button>
+                  </li>
+                </ul>
+                <br></br>
+                <button
+                  disabled={true}
+                  onClick={() => {}}
+                  className="text-sm flex text-white bg-gray-500 border-0 py-2 h-8 px-4 focus:outline-none  rounded text-lg justify-center items-center"
+                >
+                  Add more queries
+                </button>
+              </div>
+              <br />
+              <div className="text-sm">QUERYBOX:</div>
+            </div>
             <div className="mt-4 px-5 font-bold">
               <div className="text-sm">Enter your query in the input box:</div>
               <br />
